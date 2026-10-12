@@ -1,0 +1,270 @@
+
+
+@media (min-width: 320px) and (max-width: 500px){
+
+    header nav{
+      box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px;
+    }
+
+    #hero .bannerCnt h1 {
+  
+    font-size: 45px;
+ 
+}
+#hero {
+    margin-top: 45px;
+}
+.primary-btn {
+    
+    padding: 16px 17px;
+    /* display: inline-block; */
+    
+}
+}
+
+
+
+
+/* header Section Start */
+
+/* about section start*/
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+    .about .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Image first */
+    .about .about-image {
+        order: 1;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /* About text below image */
+    .about .about-text {
+        order: 2;
+        width: 100%;
+    }
+
+    .about .about-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+}
+
+
+/* about section End*/
+
+/* Project Section - Mobile & Tablet */
+
+@media (max-width: 991px) {
+    .project .project-bg {
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        overflow: hidden;
+        padding: 25px 15px;
+    }
+
+    .project .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project .project-text,
+    .project .project-card {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .project .project-text {
+        order: 1;
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .project .project-card {
+        order: 2;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .project .project-card img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .project .ctaButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .project .ctaButtons img {
+        max-width: 70px;
+        height: auto;
+    }
+    .project .project-card {
+    margin-top: -38px; 
+}
+}
+
+
+/* exp */
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .timeline {
+        border-left: 2px dashed #7a7a7a;
+        padding: 0 40px;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .timeline .duration::before {
+        right: auto;
+        left: -50px;
+    }
+
+    .timeline .duration::after {
+        right: auto;
+        left: -40px;
+    }
+
+    .timeline .duration {
+        padding: 3px 6px 8px;
+        border-right: none;
+
+    }
+
+    .timeline .duration h4 {
+        font-size: 16px;
+    }
+
+    .timeline .duration p {
+        font-size: 12px;
+    }
+
+    .timeline .exp h4 {
+        font-size: 20px;
+    }
+
+    .timeline .exp p {
+        font-size: 13px;
+    }
+}
+
+}
+    }
+
+
+    /* Expert Section */
+@media (min-width: 320px) and (max-width: 991px) {
+
+    .expert {
+        margin-top: 20px;
+        padding: 20px 0;
+        overflow: hidden;
+    }
+
+    .expert .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .expert .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+}
+
+    /* Expert Section End */
+
+    /* Subscribe Section Start */
+
+/* Tablet and Mobile Responsive */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+
+    .subscribe .sub-text {
+        margin-top: 52px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+   
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+
+   .subscribe .sub-text {
+    margin-top: 55px;
+    margin-left: 54px;
+}
+    .subscribe .sub-text h3 {
+        font-size: 24px;
+    }
+
+    .sub-mailboxt {
+   
+   
+    margin-top: 60px;
+    margin-left: 2px;
+   
+    margin-bottom: 79px;
+}
+.subscribe .sub-text {
+    margin-top: 55px;
+    margin-left: 20px;
+}
+}
+
+ /* Subscribe Section End */
+
+ @media screen and (max-width: 480px) {
+
+.footer {
+    margin-top: 7px;
+}
+
+   .f-part-01 h6 {  
+    margin-top: -22px;
+}
+.f-part-02 h3 {
+    margin-top: 8px;
+      font-size: 29px;
+}
+.f-part-02 p {
+   
+    margin-bottom: 26px;
+}
+
+.f-part-01 {
+    margin-top: 31px;
+}
+
+
+.footer .f-part-03 {
+        padding: 0 !important;
+        margin: 30px 0 0 !important;
+    }
+
+ 
+   
+
+
+}
